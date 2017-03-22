@@ -194,7 +194,7 @@ namespace HttpMock.Integration.Tests
 				{
 					File.Delete(pathToFile);
 				}
-				catch
+				catch (Exception)
 				{
 				}
 			}
